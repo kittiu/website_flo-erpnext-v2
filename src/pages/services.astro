@@ -8,28 +8,28 @@ import { brand } from '../config/brand';
 
 const services = [
   {
-    title: 'General Repairs',
-    description: 'From leaky faucets to broken drywall, our team handles everyday repairs quickly and professionally. We diagnose the issue, explain your options, and get it fixed — no surprises on the bill.',
+    title: 'ERPNext Implementation',
+    description: 'วางระบบ ERPNext แบบครบวงจร — เราศึกษากระบวนการธุรกิจของคุณจริง ๆ ก่อน กำหนดขอบเขตเป็นเอกสารชัดเจน (อะไรอยู่ในงาน อะไรไม่อยู่) แล้วส่งมอบเป็นระยะ: ออกแบบผังบัญชี ตั้งค่าระบบและภาษีไทย ย้ายข้อมูล ทดสอบ อบรม และดูแลหลัง go-live',
   },
   {
-    title: 'Installations',
-    description: 'New fixtures, appliances, water heaters, ceiling fans, and more. We ensure every installation is up to code, properly tested, and backed by our workmanship guarantee.',
+    title: 'Thai Localization',
+    description: 'VAT, ภาษีหัก ณ ที่จ่าย, e-Tax Invoice/Receipt, รายงานภาษี และผังบัญชีที่ตรงกับวิธีปฏิบัติของไทย — ตั้งค่าโดยทีมที่เข้าใจทั้ง ERPNext และวิธีทำบัญชีของธุรกิจไทย ตั้งแต่ระยะออกแบบ ไม่ใช่แก้อีกรอบตอนปิดงบ',
   },
   {
-    title: 'Inspections',
-    description: 'Comprehensive property inspections for homebuyers, sellers, and proactive homeowners. We identify potential issues before they become expensive emergencies.',
+    title: 'Data Migration',
+    description: 'ย้าย master data (ลูกค้า supplier สินค้า พนักงาน) และยอดคงเหลือจาก Excel, Odoo, SAP หรือโปรแกรมบัญชีสำเร็จรูป พร้อมตรวจทานยอดกับงบทดลองก่อน go-live ทุกครั้ง เพื่อลดความเสี่ยงตัวเลขเพี้ยนตอนเปิดระบบ',
   },
   {
-    title: 'Remodeling',
-    description: 'Kitchen and bathroom remodels, basement finishing, and whole-home renovations. We manage the project from design through final walkthrough so you can enjoy the transformation.',
+    title: 'Customization & Frappe Apps',
+    description: 'เมื่อมาตรฐานของ ERPNext ไม่พอ เราปรับแต่งเป็น Frappe App ที่เป็นระเบียบ มีการทดสอบและจัดการเวอร์ชัน — ต่างจากวิธีแกะซอร์สหรือเขียน script ที่พออัปเกรดแล้วพัง งานที่ปรับแต่งไว้จะอยู่รอดทุกเวอร์ชันของ ERPNext',
   },
   {
-    title: 'Emergency Service',
-    description: 'Burst pipes, electrical outages, and other urgent problems don\'t wait — and neither do we. Our emergency line is staffed 24/7 for rapid response when you need it most.',
+    title: 'Integrations & API',
+    description: 'เชื่อม ERPNext กับระบบรอบข้าง: e-Tax Invoice, ธนาคาร (นำเข้าใบ statement), Line, Shopify, e-commerce และระบบภายในองค์กร — ผ่าน REST API และ webhook ที่ ERPNext รองรับ ข้อมูลไหลถึงกันโดยไม่ต้องคีย์ซ้ำ',
   },
   {
-    title: 'Maintenance Plans',
-    description: 'Regular preventive maintenance keeps your systems running efficiently and extends their lifespan. Ask about our seasonal service packages for year-round peace of mind.',
+    title: 'Training & Support / AMC',
+    description: 'อบรมผู้ใช้ตามบทบาทจริง — ฝ่ายบัญชี ขาย สต็อก ผู้บริหาร — พร้อมคู่มือและข้อมูลตัวอย่าง ดูแล 30 วันหลัง go-live ต่อด้วยสัญญา AMC รายปี: อัปเดตเวอร์ชัน แก้ไขปัญหา และพัฒนาต่อยอดเมื่อธุรกิจโต',
   },
 ];
 
@@ -43,17 +43,18 @@ const icons = [
 ];
 ---
 
-<BaseLayout title="Services" description={`Explore the full range of services offered by ${brand.name}. From repairs to remodeling, we do it all.`}>
+<BaseLayout title="Services" description={`ERPNext services by ${brand.name}: implementation, Thai localization, data migration, customization, integration, and training & support.`}>
   <Header slot="header" />
 
-  <Banner title="Our Services" />
+  <Banner title="ERPNext Services" />
 
   <section class="py-section">
     <div class="mx-auto max-w-site px-4 sm:px-6">
       <div class="mx-auto mb-10 max-w-2xl text-center lg:mb-14">
-        <h2 class="font-heading text-h2 font-bold uppercase text-text">What we can do for you</h2>
+        <h2 class="font-heading text-h2 font-bold uppercase text-text">Services built around ERPNext</h2>
         <p class="mt-3 text-text-muted leading-relaxed">
-          No job is too big or too small. Here's a look at the services we offer.
+          ERPNext ครอบคลุมการทำงานเกือบทุกด้านของธุรกิจอยู่แล้ว — งานของเราคือทำให้คุณได้ประโยชน์จากมันจริง ๆ
+          ตั้งแต่การวางระบบไปจนถึงการดูแลระยะยาว
         </p>
       </div>
 

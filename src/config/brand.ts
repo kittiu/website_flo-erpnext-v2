@@ -1,37 +1,30 @@
 /**
  * ─────────────────────────────────────────────────────────────────────────────
- * BRAND CONFIGURATION
+ * BRAND CONFIGURATION — Flo Works Limited
  * ─────────────────────────────────────────────────────────────────────────────
- * Single file to edit when adapting the theme for a new client.
- *
- * Colors flow into  → src/styles/theme.css  (CSS custom properties)
- * Fonts flow into   → astro.config.mjs      (Astro 6 built-in font optimizer)
- * Meta flows into   → src/layouts/BaseLayout.astro
- *
- * Color format: use hex (#1a1a2e) or CSS color values.
+ * English punch-line headings + Thai body copy.
+ * Colors: keep the starter navy #1B3A6B + orange #F97316 (owner choice).
  * ─────────────────────────────────────────────────────────────────────────────
  */
 
 export const brand = {
   // ── Site Identity ──────────────────────────────────────────────────────────
-  name: 'Small Business Starter',
-  tagline: 'Professional service you can trust.',
+  name: 'Flo Works',
+  tagline: 'Open-source ERP, implemented properly.',
   description:
-    'A fast, mobile-first small-business website template built with Astro 6 and Tailwind v4. Fully customisable for any trade or service business.',
-  url: 'https://example.com',
-  locale: 'en_US',
+    'Flo Works Limited implements ERPNext — the open-source ERP — for Thai SMEs and growing companies. One system, every function, zero license fees, Thai-ready.',
+  url: 'https://flo-erpnext.example.com', // TODO: replace with the real domain before go-live
+  locale: 'th_TH',
 
   // ── Fonts ──────────────────────────────────────────────────────────────────
-  // To swap fonts: change the `name` values here AND update astro.config.mjs
-  // to match (both must stay in sync so Astro can optimise the correct files).
+  // Keep in sync with astro.config.mjs.
   fonts: {
     body: 'Inter',
     display: 'Oswald',
+    thai: 'Noto Sans Thai',
   },
 
   // ── Colour Palette ─────────────────────────────────────────────────────────
-  // These values are written to CSS custom properties in theme.css.
-  // Tailwind v4 @theme picks them up automatically.
   colors: {
     primary:      '#1B3A6B',
     primaryLight: '#2563EB',

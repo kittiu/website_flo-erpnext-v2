@@ -19,21 +19,22 @@ interface Props {
 }
 
 const {
-  topper = 'Who We Are',
-  heading = 'Trusted by homeowners for over 15 years',
+  topper = 'Why Floworks',
+  heading = 'Open source by conviction, disciplined in delivery',
   body = [
-    'We\'re a locally owned and operated business dedicated to delivering honest, dependable service to our community. Our team of licensed professionals takes pride in every job — big or small.',
-    'From day one, we\'ve built our reputation on doing the work right, showing up on time, and treating every home like our own.',
+    'ทีมของเรามีประสบการณ์วางระบบ ERP ให้ธุรกิจไทยมากว่า 15 ปี ตั้งแต่ระบบเปิดซอร์สรุ่นแรก ๆ อย่าง Adempiere และ Odoo จนมาลงตัวที่ ERPNext — ซึ่งเราเชื่อว่าเป็นสมดุลที่ดีที่สุดระหว่างความครบถ้วน ราคาที่ SMEs ไทยจ่ายไหว และความเป็นเจ้าของระบบ',
+    'เราทำงานแบบนี้: ฟังกระบวนการธุรกิจของคุณก่อน ตั้งค่าด้วยมาตรฐานของ ERPNext ให้เต็มที่ แล้วค่อยปรับแต่งเฉพาะจุดที่จำเป็นจริง — ระบบที่ออกแบบจากความเข้าใจจริง ไม่ใช่ template ที่ยัดเยียด',
   ],
   benefits = [
-    'Background-checked, licensed professionals',
-    'Upfront pricing with no hidden fees',
-    'Satisfaction guaranteed on every project',
+    'คุณเป็นเจ้าของซอร์สโค้ดและข้อมูล 100%',
+    'ค่าบริการโปร่งใส แบ่งจ่ายเป็นงวดตามระยะงาน',
+    'ดูแลจริงหลัง go-live พร้อมสัญญา Support/AMC',
   ],
-  ctaLabel = 'More About Us',
+  ctaLabel = 'เกี่ยวกับเราเพิ่มเติม',
   ctaHref = '/about',
   imageSrc = localAboutImage ?? PLACEHOLDER,
-  imageAlt = 'Friendly professional team on a job site',
+  imageAlt = 'ภาพตัวอย่าง — ทีมงานที่ปรึกษา ERP กำลังวางแผนโปรเจกต์ร่วมกัน',
+
 } = Astro.props;
 ---
 

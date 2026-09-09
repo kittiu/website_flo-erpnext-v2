@@ -1,38 +1,31 @@
 /**
  * ─────────────────────────────────────────────────────────────────────────────
- * CLIENT DATA
- * ─────────────────────────────────────────────────────────────────────────────
- * Business-specific copy: name, phone, email, address, socials.
- * Imported by Header, Footer, Contact page, and Head/SEO components.
- *
- * No component should hardcode a business name or phone number —
- * everything comes from this file or brand.ts.
+ * CLIENT DATA — Flo Works Limited (ERPNext implementation, Thailand)
  * ─────────────────────────────────────────────────────────────────────────────
  */
 
 export const client = {
-  name: 'Small Business Starter',
-  email: 'hello@example.com',
-  phoneForTel: '555-867-5309',
-  phoneFormatted: '(555) 867-5309',
-  /** Business / contractor license number. Displayed in the header and footer
-   *  as a trust signal. Set to an empty string to hide it. */
-  license: 'Lic# 123456',
+  name: 'Flo Works Limited',
+  email: 'sales@flo-works.co',
+  phoneForTel: '+66818417480',
+  phoneFormatted: '+66 81 841 7480',
+  /** Leave empty to hide (no license number for an ERP consultancy). */
+  license: '',
   address: {
-    lineOne: '123 Main Street',
-    lineTwo: 'Suite 100',
-    city: 'Denver',
-    state: 'CO',
-    zip: '80206',
-    country: 'US',
-    mapLink: 'https://maps.app.goo.gl/example',
+    lineOne: '2 Silom Edge Building, 10th Floor',
+    lineTwo: 'Room S10063',
+    city: 'Bangkok',
+    state: '',
+    zip: '10500',
+    country: 'TH',
+    mapLink: 'https://maps.google.com/?q=Silom+Edge+Bangrak+Bangkok+10500',
   },
   socials: {
-    facebook: 'https://www.facebook.com/',
-    instagram: 'https://www.instagram.com/',
-    google: 'https://www.google.com/maps',
+    facebook: '',
+    instagram: '',
+    google: 'https://maps.google.com/?q=Silom+Edge+Bangrak+Bangkok+10500',
   },
-  domain: 'https://www.example.com',
+  domain: 'https://flo-erpnext.example.com', // TODO: replace with the real domain before go-live
 } as const;
 
 export type Client = typeof client;

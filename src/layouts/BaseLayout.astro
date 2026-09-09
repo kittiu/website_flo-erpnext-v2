@@ -61,6 +61,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? brand.url);
     <!-- Fonts -->
     <Font cssVariable="--font-display" preload />
     <Font cssVariable="--font-body"    preload />
+    <Font cssVariable="--font-thai"    preload />
 
     <!-- JSON-LD Structured Data -->
     {schema && (
@@ -86,7 +87,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? brand.url);
       class="sr-only focus:not-sr-only focus:absolute focus:z-[99999] focus:bg-primary focus:text-primary-fg focus:px-4 focus:py-2 focus:rounded-md"
       href="#main"
     >
-      Skip to main content
+      Skip to main content (ข้ามไปยังเนื้อหาหลัก)
     </a>
 
     <slot name="header" />
