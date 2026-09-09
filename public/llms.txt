@@ -1,0 +1,17 @@
+# Flo Works — ERPNext implementation for Thai businesses
+
+> Flo Works Limited (Flo Works) implements ERPNext — the open-source ERP — for Thai SMEs and growing companies. English punch-line headings, Thai body content. One system, every function, zero license fees, Thai-ready (VAT, withholding tax, e-Tax Invoice/Receipt).
+
+## Pages
+
+- [Home](https://flo-erpnext.example.com/): ERPNext implementation in Thailand — one system, every function, zero license fees.
+- [Services](https://flo-erpnext.example.com/services/): ERPNext services — implementation, Thai localization, data migration, customization & Frappe apps, integrations & API, training & support/AMC.
+- [About](https://flo-erpnext.example.com/about/): About Flo Works — 15+ years of ERP experience, open-source conviction, working principles.
+- [Blog](https://flo-erpnext.example.com/blog/): Thai articles about ERPNext for Thai SMEs.
+- [Contact](https://flo-erpnext.example.com/contact/): sales@flo-works.co, +66 81 841 7480, Silom Edge, Bangkok.
+
+## Blog posts
+
+- [ERPNext คืออะไร เหมาะกับ SME ไทยแค่ไหน](https://flo-erpnext.example.com/blog/erpnext-khue-arai-sme-thai/): What ERPNext is, how it compares to proprietary ERPs, fit for Thai SMEs, Thai localization.
+- [ค่าใช้จ่ายที่แท้จริงของ ERPNext สำหรับ SME ไทย (2026)](https://flo-erpnext.example.com/blog/erpnext-cost-sme-thai/): The real cost structure of ERPNext — implementation, customization, hosting, support; no license fees.
+- [ย้ายระบบจาก Excel / Odoo / SAP ไป ERPNext](https://flo-erpnext.example.com/blog/erpnext-migration-legacy-thai/): How to migrate from Excel/Odoo/SAP to ERPNext safely — clean data, design, migrate, reconcile to trial balance, parallel run.
