@@ -1,0 +1,32 @@
+<svg viewBox="0 0 640 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="navyGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B2A4A"/>
+      <stop offset="100%" stop-color="#123A63"/>
+    </linearGradient>
+    <linearGradient id="orangeGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7A29"/>
+      <stop offset="100%" stop-color="#F0580B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ICON: rounded squircle badge (navy) with a geometric rounded "F" glyph inside,
+       middle arm picked out in orange as the flow/AI accent -->
+  <g transform="translate(20,10)">
+    <rect x="0" y="0" width="160" height="160" rx="42" fill="url(#navyGrad2)"/>
+    <!-- vertical stem -->
+    <rect x="36" y="32" width="28" height="98" rx="14" fill="#FFFFFF"/>
+    <!-- top arm -->
+    <rect x="36" y="32" width="92" height="28" rx="14" fill="#FFFFFF"/>
+    <!-- middle arm (orange accent) -->
+    <rect x="36" y="72" width="72" height="26" rx="13" fill="url(#orangeGrad2)"/>
+    <!-- node accent at tip of middle arm -->
+    <circle cx="116" cy="85" r="9" fill="#FFFFFF"/>
+  </g>
+
+  <!-- WORDMARK -->
+  <g transform="translate(195,0)">
+    <text x="0" y="105" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="58" letter-spacing="0.5" fill="#0B2A4A">Flo<tspan fill="#FF7A29">works</tspan></text>
+    <text x="2" y="135" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="17" letter-spacing="3" fill="#5A7189">ERPNEXT · AI</text>
+  </g>
+</svg>

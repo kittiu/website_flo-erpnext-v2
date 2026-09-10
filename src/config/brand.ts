@@ -16,6 +16,17 @@ export const brand = {
   url: 'https://flo-erpnext.example.com', // TODO: replace with the real domain before go-live
   locale: 'th_TH',
 
+  // ── Logo ───────────────────────────────────────────────────────────────────
+  // Assets derived from the owner's `floworks_logo_v3_badge.svg`
+  // (see public/). Header/footer use the wordmark lockup WITHOUT the tiny
+  // "ERPNEXT · AI" subtitle — it is illegible below ~100px lockup height.
+  logo: {
+    header:   '/floworks-logo-header.svg', // badge + wordmark (light surfaces)
+    reversed: '/floworks-logo-white.svg',  // badge + white wordmark (dark surfaces)
+    full:     '/floworks-logo.svg',        // full lockup incl. subtitle (large/press use)
+    alt:      'Flo Works — ERPNext · AI',
+  },
+
   // ── Fonts ──────────────────────────────────────────────────────────────────
   // Keep in sync with astro.config.mjs.
   fonts: {

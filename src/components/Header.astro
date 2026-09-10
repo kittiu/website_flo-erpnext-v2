@@ -21,9 +21,15 @@ const currentPath = Astro.url.pathname;
     <!-- Logo -->
     <a
       href="/"
-      class="font-heading text-xl font-bold uppercase tracking-wide text-primary transition-opacity hover:opacity-80"
+      class="flex shrink-0 items-center transition-opacity hover:opacity-80"
     >
-      {brand.name}
+      <img
+        src={brand.logo.header}
+        alt={brand.logo.alt}
+        width="640"
+        height="175"
+        class="h-10 w-auto sm:h-12"
+      />
     </a>
 
     <!-- Desktop nav -->

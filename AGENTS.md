@@ -23,6 +23,14 @@ pnpm run preview   # preview the build
   `@theme inline`. Keep the three in sync.
 - **Client data**: `src/data/client.ts` (name, email, phone, address, socials, domain).
 - **Business info**: Silom Edge, Bangkok; sales@flo-works.co; +66 81 841 7480.
+- **Logo**: owner-supplied `floworks_logo_v3_badge.svg`. Assets in `public/`,
+  wired through `brand.logo` in `src/config/brand.ts` —
+  `floworks-logo-header.svg` (badge + wordmark, light surfaces, used in Header),
+  `floworks-logo-white.svg` (reversed for the dark footer),
+  `floworks-logo.svg` (full lockup incl. the "ERPNEXT · AI" subtitle — only for
+  large use; below ~100px lockup height that subtitle is illegible),
+  `favicon.svg` (badge only), `favicon.ico`, `og-image.png` (1200×630).
+  Edit the source SVG, then regenerate the derivatives — do not hand-edit them.
 
 ## ⚠️ TODO before go-live (owner must supply)
 
@@ -38,6 +46,7 @@ pnpm run preview   # preview the build
 
 ## Workflow
 
-No remote configured yet (template origin removed). When a GitHub remote is
-added, follow the owner's PR-only rule: never push directly to `main`;
-open a PR and wait for merge.
+Remote: `git@github.com:kittiu/website_flo-erpnext-v2.git`. Owner's PR-only
+rule: never push directly to `main`; open a PR and wait for merge.
+`gh` is not authenticated on this host — verify PR state through the public
+GitHub API and give the owner a compare URL.
